@@ -1,3 +1,6 @@
 #!/bin/bash
 
-cp -r alacritty/ ~/.config/
+echo "Copying Configuration Files..."
+
+
+#cp -r alacritty/ ~/.config/
