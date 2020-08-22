@@ -3,4 +3,4 @@
 echo "Copying Configuration Files..."
 
 
-#cp -r alacritty/ ~/.config/
+cp -r alacritty/ ~/.config/
