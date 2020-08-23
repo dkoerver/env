@@ -2,40 +2,43 @@
 
 echo "Applying Manjaro Config..."
 
+# Upgrading
+sudo pacman -Syu
+
 # General Utilities
-sudo pacman -Syu curl
-sudo pacman -Syu neovim
+sudo pacman -S curl
+sudo pacman -S neovim
 
 # Fish Shell
-sudo pacman -Syu fish
+sudo pacman -S fish
 
 # Alacritty
-sudo pacman -Syu alacritty
+sudo pacman -S alacritty
 
 # Java
-sudo pacman -Syu jdk-openjdk
-sudo pacman -Syu groovy-sdk
-sudo pacman -Syu groovy
-sudo pacman -Syu grails
-sudo pacman -Syu intellij-idea-community-edition
+sudo pacman -S jdk-openjdk
+sudo pacman -S groovy-sdk
+sudo pacman -S groovy
+sudo pacman -S grails
+sudo pacman -S intellij-idea-community-edition
 
 # TexLive
-sudo pacman -Syu texlive-bin
-sudo pacman -Syu texlive-core
-sudo pacman -Syu texlive-bibtexextra
-sudo pacman -Syu texlive-fontsextra
-sudo pacman -Syu texlive-formatsextra
-sudo pacman -Syu texlive-latexextra
-sudo pacman -Syu texlive-pictures
-sudo pacman -Syu lexlive-langextra
-sudo pacman -Syu texstudio
+sudo pacman -S texlive-bin
+sudo pacman -S texlive-core
+sudo pacman -S texlive-bibtexextra
+sudo pacman -S texlive-fontsextra
+sudo pacman -S texlive-formatsextra
+sudo pacman -S texlive-latexextra
+sudo pacman -S texlive-pictures
+sudo pacman -S texlive-langextra
+sudo pacman -S texstudio
 
 # Evolution
-sudo pacman -Syu evolution
+sudo pacman -S evolution
 
 # Misc
-sudo pacman -Syu telegram-desktop
-sudo pacman -Syu gimp
-sudo pacman -Syu opera
+sudo pacman -S telegram-desktop
+sudo pacman -S gimp
+sudo pacman -S opera
 #Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
