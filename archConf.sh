@@ -40,5 +40,6 @@ sudo pacman -S evolution
 sudo pacman -S telegram-desktop
 sudo pacman -S gimp
 sudo pacman -S opera
+
 #Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
