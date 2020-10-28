@@ -9,6 +9,8 @@ if [[ "$dist" =~ "Fedora" ]]; then
  ./fedoraConf.sh
 elif [[ "$dist" =~ "Arch" ]]; then
   ./archConf.sh
+elif [[ "$dist" =~ "Ubuntu" ]]; then
+  ./ubuntuConf.sh
 else
   echo "Unsupported Distribution"
 fi

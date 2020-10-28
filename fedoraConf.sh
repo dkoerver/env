@@ -4,7 +4,7 @@ echo "Applying Fedora Config..."
 
 # General Utilities
 sudo dnf install curl
-sudo dnf install vim
+sudo dnf install neovim
 
 # Fish Shell
 sudo dnf install fish
