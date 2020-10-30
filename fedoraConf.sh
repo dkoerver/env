@@ -19,9 +19,6 @@ sudo dnf install java-14-openjdk
 # TexLive
 sudo dnf install texlive-scheme-full
 
-# Evolution
-sudo dnf install evolution
-
 # Flatpak Programs
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
