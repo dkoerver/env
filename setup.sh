@@ -7,6 +7,8 @@ dist=$(sudo cat /etc/*-release | head -n 1)
 
 if [[ "$dist" =~ "Fedora" ]]; then
  ./fedoraConf.sh
+elif [[ "$dist" =~ "Manjaro" ]]; then
+  ./archConf.sh
 elif [[ "$dist" =~ "Arch" ]]; then
   ./archConf.sh
 elif [[ "$dist" =~ "Ubuntu" ]]; then
